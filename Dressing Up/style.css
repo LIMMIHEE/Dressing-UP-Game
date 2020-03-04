@@ -1,0 +1,132 @@
+
+body{
+    background-image: url('img/2754227.jpg');
+    font-family: 'Jua', sans-serif;
+}
+span{
+    display: flex;
+    font-size: 2vmax;
+    width: 8%;
+    top: 10px;
+    border: 2px solid gray;
+    background-color: rgba(128, 128, 128, 0.671);
+    border-radius: 2vmax;
+    margin:2vmax;
+    text-align: center;
+    padding: 2vmax;
+}
+
+
+.main-Div{
+    width: 70vmax;
+    height: 50vmax;
+    position: relative;
+    border: 6px solid rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+    margin: 10%;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.clot-div{
+    position: absolute;
+    margin: 30px;
+    width: 45%;
+    border: 5px solid rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+.Character{
+    position: absolute;
+    margin: 30px;
+    width: 45%;
+    border: 5px solid rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+
+.Character-clothes{
+    right: 0;
+    margin-top: 10vmax;
+    margin-right: 8vmax;
+    width: 18vmax; height: 23vmax;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.548);
+}
+.clothes-change{
+    position: absolute;
+    right: 0;    bottom: 0;
+    margin-right: 13vmax; margin-bottom: 11vmax;
+}
+i{
+    margin: 1vmin;
+}
+
+
+.Character-color button{
+    float: right;
+    
+    border: 0.5vmin solid rgba(0, 0, 0, 0.514);
+    width: 5vmax;   height:5vmax;
+    border-radius: 35px;
+    margin-top: 2vmax;
+    margin-right: 0.6vmax;
+    
+}
+
+.change-color-White{
+    background-color: white;
+}
+.change-color-black{
+    background-color: gray;
+}
+.change-color-pink{
+    background-color: rgb(255, 215, 221);
+}
+.change-color-yellow{
+    background-color: rgb(255, 244, 215);
+}
+.change-color-blue{
+    background-color: rgb(215, 246, 255);
+}
+.change-color-purple{
+    background-color: rgb(218, 215, 255);
+}
+
+
+.footer{
+    font-weight: bold;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding-top: 5px ;
+    text-align: center;
+    height: 25px;    width: 100%;
+    background: rgba(49, 49, 49, 0.651)
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width:1242px){
+    .clothes-change{
+        margin-right: 11vmax; margin-bottom: 8vmax;
+    }
+}
+
+.explanation{
+    display: none;
+    text-align: center;
+    font-size: 2.5vw;
+    padding-top: 3vmax;
+    height:  10vmax;
+    position: fixed;
+    width: 100%;
+    left: 0; bottom: 0;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+.explanation i{
+    float: right;
+    top:0;
+    font-size: 5vw;
+    padding: 10px;
+    bottom: 20px;
+}
