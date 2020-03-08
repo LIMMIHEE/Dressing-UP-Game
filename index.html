@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dressing-UP-Web</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <span style="color:rgb(255, 255, 255)" onclick="changeOnFooter()">
+        사용방법
+        </span>
+        <div class="main-Div"> 
+           
+            <div class="Character" >
+                <img src="Img/white_rabbit.png" id="chara-img"style="width:100%;height:100%;object-fit:contain;">
+            </div>
+            <div class="clot-div" ondragenter="dragenter()" >
+                <img src="Img/Clean.png" id="chara-clo"style="width:100%;height:100%;object-fit:contain;" >
+            </div>
+            <div class="Character-clothes">
+                <img src="Img/Dress_1.png" id="chara-clothes"style="width:100%;height:100%;object-fit:contain;" draggable="true" ondragstart="drag()" >
+            </div>
+            <div class="Character-color">
+                <Button class="change-color-White" onclick="changeChcolor('white')"> </Button>
+                <Button class="change-color-black" onclick="changeChcolor('black')"> </Button>
+                <Button class="change-color-pink" onclick="changeChcolor('pink')"> </Button>
+                <Button class="change-color-yellow" onclick="changeChcolor('yellow')"> </Button>
+                <Button class="change-color-blue" onclick="changeChcolor('blue')"> </Button>
+                <Button class="change-color-purple" onclick="changeChcolor('purple')"> </Button>
+            </div>
+            
+            <div class="clothes-change">
+                <i class="fa fa-share fa-flip-horizontal fa-3x" id="icon_a" aria-hidden="true" onclick="downclothesBotton()"></i>
+                <i class="fa fa-share fa-3x" aria-hidden="true" onclick="upclothesBotton()"></i>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="http://www.freepik.com">Background Img By Freepik [click here]</a>
+        
+        </div>
+        <div class="explanation" id="onoff">
+            6가지의 색을 클릭하면 토끼의 색이 바뀌며,<br> 옷을 토끼에게 드로그앤 드롭시 해당 옷을 입습니다.
+            <i class="fa fa-times" aria-hidden="true" onclick="changeOffFooter()"></i>
+        </div>
+    </body>
+</html>
