@@ -6,7 +6,7 @@ https://limmihee.github.io/Dressing-UP-Game/
 <br>
 👆 위 링크에서 체험 가능합니다.
 
-다만 작동이 느릴 수 있는 점. 이해해주세요.
+*다만 작동이 느릴 수 있는 점. 이해해주세요.*
 
 # UI
 
