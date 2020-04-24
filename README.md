@@ -1,6 +1,6 @@
 # 🐰수염 토끼씨에게 옷을 입혀주세요!  
 ### | JS, CSS , HTML | 
->위와 같은 언어들을 사용하여 만들어진 웹 옷입히기 게임입니다.
+>위와 같은 언어들을 사용하여 만들어진 웹 옷입히기 게임입니다.✋
 
 https://limmihee.github.io/Dressing-UP-Game/
 <br>
